@@ -1,0 +1,79 @@
+#container {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#container h1 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+#book-form label {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 2px;
+}
+
+#book-form>div {
+  margin-bottom: 20px;
+}
+
+#book-form div>input {
+  font-weight: 700;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 100%;
+  padding: 7px 0;
+}
+
+#book-form div>input:focus {
+  outline: none;
+}
+
+#submit {
+  padding: 6px 29px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  background-color: #fff;
+  transition: background-color 100ms ease-in-out;
+  margin-bottom: 30px;
+}
+
+#submit:hover {
+  cursor: pointer;
+  background-color: rgb(238, 235, 235);
+}
+
+#submit:active {
+  background-color: #fff;
+}
+
+#data-book td {
+  padding-bottom: 10px;
+}
+
+thead th {
+  font-size: 18px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.error {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  margin-bottom: 23px;
+}
+
+.success {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  margin-bottom: 23px;
+}
+
+.delete {
+  text-decoration: none;
+  color: red;
+}

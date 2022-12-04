@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap"
+      ES^rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
+      integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5"
+      crossorigin="anonymous"
+    />
+    <title>Book List</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <h1>Add Book</h1>
+      <form id="book-form">
+        <div>
+          <label for="title">Title</label>
+          <input type="text" name="title" id="title" />
+        </div>
+        <div>
+          <label for="author">Author</label>
+          <input type="text" name="author" id="author" />
+        </div>
+        <div>
+          <label for="isbn">ISBN#</label>
+          <input type="text" name="isbn" id="isbn" />
+        </div>
+        <input type="submit" value="submit" id="submit" />
+      </form>
+      <hr />
+      <table
+        style="
+          width: 100%;
+          margin-top: 20px;
+          border-bottom: 1px solid gray;
+          padding-bottom: 10px;
+          border-collapse: separate;
+        "
+      >
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>ISBN</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="data-book"></tbody>
+      </table>
+    </div>
+
+    <script src="ES6.js"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>
