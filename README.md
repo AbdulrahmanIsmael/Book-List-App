@@ -20,7 +20,7 @@ Application to list books and provide some information about each book as well a
 
 [![Demo](https://img.shields.io/badge/Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://book-list-app-navy.vercel.app/)
 
-<hr/>
+---
 
 ## 🚀 About Me
 I'm a front End developer, I have the ability to build interactive, responsive and Organized Websites.
