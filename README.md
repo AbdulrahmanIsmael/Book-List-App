@@ -34,7 +34,9 @@ I'm a front End developer, I have the ability to build interactive, responsive a
 - PugJs
 - GulpJs
 - BootStrap
-- React.js (In progress)
+- React.js
+- React ecosystems (React Router - React Redux)
+- Redux | Redux Toolkit 
 
 
 ## 🔗 Links
